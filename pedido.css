@@ -1,0 +1,17 @@
+h1 { 
+  color: red;
+  background: yellow; 
+}
+
+table { border: 1px solid;
+ border-collapse: collapse;  
+}
+	  
+td { 
+ border: 1px solid;
+}
+
+th { 
+ border: 1px solid;
+}
+

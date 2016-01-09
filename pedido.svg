@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg">
+  <svg:text y="40" x="10" font-size="20">Rotulador RX2</svg:text><svg:rect y="30" x="300" width="200" height="10" fill="blue"/>
+  <svg:text y="80" x="10" font-size="20">Grapadora Lin</svg:text><svg:rect y="70" x="300" width="20" height="10" fill="blue"/>
+  <svg:text y="120" x="10" font-size="20">Computadora Lenovo</svg:text><svg:rect y="110" x="300" width="20" height="10" fill="blue"/>
+</svg:svg>

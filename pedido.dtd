@@ -1,0 +1,9 @@
+<!ELEMENT pedido (producto)*>
+<!ELEMENT producto (nombre, cantidad,comentarios, precio?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT comentarios (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST producto codigo CDATA #REQUIRED>
+<!ATTLIST precio moneda CDATA #IMPLIED>
+
