@@ -5,15 +5,13 @@
  <html>
   <link rel="stylesheet" href="pedido.css" />
   <body>
-   <h1>Pedido</h1>
+   <h1>Lista de Pedidos en MTI'16</h1>
    <table>
    <tr>
     <th>Codigo</th>
     <th>Nombre</th>
     <th>Cantidad</th>
    </tr>
-  <xsl:apply-templates />
-  <xsl:apply-templates />
   <xsl:apply-templates />
    </table>
    Total de productos: 

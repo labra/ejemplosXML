@@ -29,23 +29,23 @@ Para validar con XML Schema
 
 Convertir XML a HTML mediante XSLT (versión 1)
 
-> xsltproc pedido.xsl pedido.xml -o pedido.html
+> xsltproc -o pedido.html pedido.xsl pedido.xml 
 
 Convertir XML a HTML mediante XSLT (versión 2, con imágenes)
 
-> xsltproc pedido2.xsl pedido.xml -o pedido2.html
+> xsltproc -o pedido2.html pedido2.xsl pedido.xml 
 
 Convertir XML a SVG mediante XSLT 
 
-> xsltproc pedido2svg.xsl pedido.xml -o pedido.svg
+> xsltproc -o pedido.svg pedido2svg.xsl pedido.xml 
 
 Convertir XML a JSON mediante XSLT
 
-> xsltproc pedido2json.xsl pedido.xml -o pedido.json
+> xsltproc -o pedido.json pedido2json.xsl pedido.xml 
 
 Convertir XML a FO mediante XSLT
 
-> xsltproc pedido2fo.xsl pedido.xml -o pedido.fo
+> xsltproc -o pedido.fo pedido2fo.xsl pedido.xml 
 
 Convertir FO a PDF mediante Apache FOP (requiere su instalación aparte)
 
@@ -53,5 +53,7 @@ Convertir FO a PDF mediante Apache FOP (requiere su instalación aparte)
 
 Convertir XML a RDF mediante XSLT
 
-> xsltproc pedido2rdf.xsl pedido.xml -o pedido.rdf
+> xsltproc -o pedido.rdf pedido2rdf.xsl pedido.xml 
+
+Autor: [Jose Emilio Labra Gayo](http://www.di.uniovi.es/~labra)
 
