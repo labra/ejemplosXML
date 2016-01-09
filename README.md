@@ -5,7 +5,8 @@ Este fichero contiene algunos ejemplos para trabajar con XML
 * `pedido.xml`: fichero XML con los datos
 * `pedido.dtd`: DTD para validar el fichero XML
 * `pedido.xsd`: XML Schema para validar el fichero XML
-* `pedido.xsl`: Fichero XSLT que permite convertir de XML a HTML
+* `pedido.xsl`: Fichero XSLT que permite convertir de XML a HTML 
+* `pedido.css`: Hoja de estilos CSS utilizada por el fichero HTML generado
 * `pedido2.xsl`: Fichero XSLT que permite convertir de XML a HTML (enlaza con imágenes)
 * `pedido2svg.xsl`: Fichero XSLT que permite convertir de XML a SVG
 * `pedido2json.xsl`: Fichero XSLT que permite convertir de XML a JSON
